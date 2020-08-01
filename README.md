@@ -59,6 +59,32 @@ code .
     path: /
     defaults: { _controller: 'App\Controller\ArticleController::index' }
 ```
+* to use annotations:
+```
+composer require doctrine/annotations
+```
+
+* to use twig template engine:
+```
+composer require twig
+
+in ArticleController...
+...
+return $this->render('articles/index.html.twig');
+```
+
+The base.html.twig file in templates is the base.
+Add in a new directory "articles" another file that extends that template index.html.twig:
+
+```
+{% extends 'base.html.twig' %}
+
+{% block title %} Symphapp articles {% endblock %}
+
+{% block body %}
+<h1>Articles</h1>
+{% endblock %}
+```
 
 
 # Resources
