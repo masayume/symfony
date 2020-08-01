@@ -45,11 +45,19 @@ symfony new 01-symphapp --full
 
 * http://localhost/symphapp/
 
-## The "01-symphapp" application
+## The "01-symphapp" APPLICATION
 
 ```
 cd ~/git/symfony/01-symphapp
 code .
+```
+
+* create a controller: ArticleController.php in src/controller
+
+* set up a route to the contoller in config/routes/routes.yaml () 
+```index:
+    path: /
+    defaults: { _controller: 'App\Controller\ArticleController::index' }
 ```
 
 
