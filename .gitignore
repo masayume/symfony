@@ -1,5 +1,7 @@
 ###> symfony/framework-bundle ###
 
+/vendor
+composer.lock
 /01-symphapp/vendor/
 /01-symphapp/var/
 /01-symphapp/.env.local
