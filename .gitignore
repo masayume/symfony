@@ -1,0 +1,8 @@
+###> symfony/framework-bundle ###
+
+01-symphapp/vendor/
+01-symphapp/var/
+01-symphapp/.env.local
+01-symphapp/.env.local.php
+01-symphapp/.env.*.local
+01-symphapp/public/bundles/
