@@ -1,6 +1,10 @@
 {
     "require": {
         "doctrine/annotations": "^1.4",
-        "twig/twig": "^2.12"
+        "twig/twig": "^2.12",
+        "symfony/orm-pack": "^2.0"
+    },
+    "require-dev": {
+        "symfony/maker-bundle": "^1.16"
     }
 }
